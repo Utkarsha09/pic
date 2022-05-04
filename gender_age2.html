@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark mode</title>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+    <link href="gender_age.css" rel="stylesheet">
+    <script src="image.js"></script>
+</head>
+
+<body style="background-color: rgb(58, 55, 55); color: rgb(255, 255, 255);">
+    <header>
+        <div class="HD" style="background-color: rgb(169, 166, 166);">
+            <h1>HLM</h1>
+            <h4>Human Like Machines</h4>
+        </div>
+    </header>
+    <main>
+        <div class="MD">
+            <h1>Gender and Age Detection</h1>
+            <h4>
+                In this you can identify the gender and age of a person<br> by just uploading one single photo
+            </h4>
+        </div>
+        <div class="BX">
+            <div class="box1">
+                <button style="margin-bottom: 8rem; background-color: rgb(169, 166, 166); border: rgb(169, 166, 166);">upload image</button><br>
+                <label for="image_input"><i class="fa fa-plus" style="background-color: rgb(20, 20, 20); border: black;">+</i></label>
+                <input type="file" id="image_input" style="display: none; visibility: none;" accept="image/jpg;">
+            </div>
+            <div class="li"></div>
+            <div class="box2">
+                <input type="text" placeholder=" Gender:" style="background-color: rgb(169, 166, 166); color: black; border: rgb(169, 166, 166);">
+                <br><br><br><br><br>
+                <input type="text" placeholder=" Age:" style="background-color: rgb(169, 166, 166); color: black; border: rgb(169, 166, 166);">
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="foot">
+            Copyright Human Like Machines. All Rights Reserved<br>
+            Privacy Policy | Terms and Conditions
+        </div>
+    </footer>
+
+</body>
+
+</html>

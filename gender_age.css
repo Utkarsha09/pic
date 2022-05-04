@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #bafdf1;
+}
+
+.HD {
+    background-color: #80EAD7;
+    text-align: center;
+    height: 7rem;
+    color: white;
+}
+
+header .HD h1 {
+    font-family: 'Barlow', sans-serif;
+    font-style: italic;
+    font-size: 4rem;
+    text-shadow: 2px 5px 5px #000000;
+}
+
+.HD h4 {
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-size: 1rem;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.82);
+}
+
+.MD {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.MD h1 {
+    font-family: 'Inter', sans-serif;
+}
+
+.MD h4 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+}
+
+.BX .box1 {
+   
+    margin-top: 2rem;
+    margin-left: 20rem;
+}
+
+.BX .box1 button {
+    background-color: white;
+    margin-left: 5rem;
+    width: 7rem;
+    height: 3rem;
+    border-radius: 2rem;
+    border: 1px solid white;
+}
+
+.BX .box1 input {
+    height: 16rem;
+    width: 18rem;
+    background-color: white;
+}
+.BX .box2 {
+    margin-top: -10rem;
+    margin-left: 55rem;
+}
+
+.BX .box2 input {
+
+    width: 15rem;
+    height: 4rem;
+    border-radius: 3rem;
+    border: 1px solid white;
+    font-family: 'Actor';
+    font-size: large;
+}
+
+.Bx .li {
+    border: 1px solid #000000;
+    transform: rotate(90deg);
+    height: 10rem;
+}
+
+.foot{
+    text-align: center;
+margin-top: 8rem;
+}
+
+@media(max-width:1460px) {
+    .BX .box1 {
+        
+        margin-top: 2rem;
+        margin-left: 20%;
+    }
+
+    .BX .box2 {
+        margin-top: -10rem;
+        margin-left: 60%;
+    }
+}
+
+@media(max-width:1150px) {
+
+    .BX .box1 {
+        
+        margin-top: 2rem;
+        margin-left: 10%;
+    }
+
+    .BX .box2 {
+        margin-top: -10rem;
+        margin-left: 60%;
+    }
+}
+
+@media(max-width:610px) {
+    .BX .box1 {
+      
+        margin-top: 2rem;
+        margin-left: 26%;
+    }
+
+    .BX .box2 {
+        margin-top: 10rem;
+        margin-left: 30%;
+    }
+}
+
+@media(max-width:540px) {
+    .BX .box1 {
+       
+        margin-top: 2rem;
+        margin-left: 24%;
+    }
+
+    .BX .box2 {
+        margin-top: 10rem;
+        margin-left: 28%;
+    }
+}
+
+@media(max-width:480px) {
+    .BX .box1 {
+       
+        margin-top: 2rem;
+        margin-left: 21%;
+    }
+
+    .BX .box2 {
+        margin-top: 10rem;
+        margin-left: 26%;
+    }
+}
+
+@media(max-width:400px) {
+    .BX .box1 {
+       
+        margin-top: 2rem;
+        margin-left: 15%;
+    }
+
+    .BX .box2 {
+        margin-top: 10rem;
+        margin-left: 21%;
+    }
+}
+
+@media(max-width:375px) {
+    .BX .box1 {
+        
+        margin-top: 2rem;
+        margin-left: 12%;
+    }
+
+    .BX .box2 {
+        margin-top: 10rem;
+        margin-left: 18%;
+    }
+}
+
+
+.BX .box1 label i {
+    background-color: white;
+    font-size: 4rem;
+    font-weight: bolder;
+    border: 1px solid white;
+    padding: 7rem;
+    cursor: pointer;
+}
